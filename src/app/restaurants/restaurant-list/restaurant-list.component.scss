@@ -1,0 +1,27 @@
+.example-card {
+    max-width: 500px;
+    padding-bottom: 10px;
+  }
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.padding-div{
+  padding-bottom: 25px;
+}
+.mat-card{
+  margin: 15px auto;
+}
+// .container {
+//   // position: relative;
+//   // display: flex;
+//   // flex-flow: row wrap;
+//   // flex-wrap: wrap;
+//   // flex: 1 0 calc(50%-20px);
+// }
+
+@media (min-width: 768px) {
+// .container {
+//   // margin: 0px 100px;
+// }
+}
