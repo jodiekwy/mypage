@@ -7,7 +7,7 @@ export const Restaurants : Restaurant[] = [
         location: 'East Village',
         address: 'NY 10004',
         review : '3D modeling and animation',
-        imgpath : '../../assets/img/portfolio/TOL.png'
+        imgpath : '../../mypage/assets/img/portfolio/TOL.png'
     }, 
     {
         id : 1,
@@ -15,7 +15,7 @@ export const Restaurants : Restaurant[] = [
         location: 'East Village',
         address: 'NY 10004',
         review : 'Social Networking Web Site',
-        imgpath : '../../assets/img/portfolio/Bloom.jpg'
+        imgpath : '../../mypage/assets/img/portfolio/Bloom.jpg'
     },
     {
         id : 2,
@@ -23,7 +23,7 @@ export const Restaurants : Restaurant[] = [
         location: 'East Village',
         address: 'NY 10004',
         review : 'Online Grading System',
-        imgpath : '../../assets/img/portfolio/OGS.jpg'
+        imgpath : '../../mypage/assets/img/portfolio/OGS.jpg'
     },
     {
         id : 3,
@@ -31,7 +31,7 @@ export const Restaurants : Restaurant[] = [
         location: 'East Village',
         address: 'NY 10004',
         review : 'Mini-Game',
-        imgpath : '../../assets/img/portfolio/pathX.jpg'
+        imgpath : '../../mypage/assets/img/portfolio/pathX.jpg'
     },
     {
         id : 4,
@@ -39,6 +39,6 @@ export const Restaurants : Restaurant[] = [
         location: 'East Village',
         address: 'NY 10004',
         review : 'Mini-Game',
-        imgpath : '../../assets/img/portfolio/sortinghat.jpg'
+        imgpath : '../../mypage/assets/img/portfolio/sortinghat.jpg'
     }
 ];
