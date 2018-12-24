@@ -19,9 +19,17 @@
 //   // flex-wrap: wrap;
 //   // flex: 1 0 calc(50%-20px);
 // }
-
+.button-spacer {
+  width:100%;
+  flex:1 1 auto;
+}
 @media (min-width: 768px) {
 // .container {
 //   // margin: 0px 100px;
 // }
 }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-72 { font-size: 72px; }

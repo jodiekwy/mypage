@@ -12,6 +12,8 @@ import { RestaurantsModule} from './restaurants/restaurants.module';
 
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from'@angular/material/icon';
 
     
 @NgModule({
@@ -27,7 +29,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppRoutingModule,
     RestaurantsModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
