@@ -334,6 +334,8 @@ THE SOFTWARE.
 
 @angular/material/button
 
+@angular/material/icon
+
 @angular/flex-layout
 MIT
 The MIT License
