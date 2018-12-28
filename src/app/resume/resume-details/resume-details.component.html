@@ -1,0 +1,19 @@
+<mat-toolbar mat-dialog-title>
+    <span>Resume</span>
+    <span class="toolbar-spacer"></span>
+    <button mat-icon-button (click)="closedialog()">
+        <mat-icon>close</mat-icon>
+    </button>
+    <!-- <button mat-button class="fas fa-times" (click)="closedialog()"></button> -->
+  </mat-toolbar>
+<!-- <h1 mat-dialog-title>{{data.name}}</h1> -->
+<div mat-dialog-content layout-align="center center">
+    <!-- <img src="../{{data.imgpath}}" alt="Photo of a Shiba Inu">
+  <p>{{data.review}}</p> -->
+  <!-- <mat-form-field>
+    <input matInput [(ngModel)]="data.animal">
+  </mat-form-field> -->
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="closedialog()">Close</button>
+</div>
