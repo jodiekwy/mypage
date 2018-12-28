@@ -16,9 +16,10 @@ export class ResumeIntroComponent implements OnInit {
   ngOnInit() {
   }
 
-  openDialog(id: number) {
+  openDialog() {
     let dialogRef = this.dialog.open(ResumeDetailsComponent, {
-      width: '80%'
+      width: '80%',
+      autoFocus: false
     });
   
     dialogRef.afterClosed().subscribe(result => {

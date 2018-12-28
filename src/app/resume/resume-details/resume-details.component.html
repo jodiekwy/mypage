@@ -1,19 +1,90 @@
 <mat-toolbar mat-dialog-title>
-    <span>Resume</span>
+    <span>Jodie Kwok</span>
     <span class="toolbar-spacer"></span>
-    <button mat-icon-button (click)="closedialog()">
+    <a matTooltip="Email">jodiekwy[at]gmail[dot]com</a>
+    <a mat-icon-button matTooltip="Linkedin" target="_blank" href="https://www.linkedin.com/in/kwyjodiecs">
+        <mat-icon>launch</mat-icon>
+    </a>
+    <button mat-icon-button matTooltip="Close" (click)="closedialog()">
         <mat-icon>close</mat-icon>
     </button>
-    <!-- <button mat-button class="fas fa-times" (click)="closedialog()"></button> -->
   </mat-toolbar>
-<!-- <h1 mat-dialog-title>{{data.name}}</h1> -->
 <div mat-dialog-content layout-align="center center">
-    <!-- <img src="../{{data.imgpath}}" alt="Photo of a Shiba Inu">
-  <p>{{data.review}}</p> -->
-  <!-- <mat-form-field>
-    <input matInput [(ngModel)]="data.animal">
-  </mat-form-field> -->
+
+<!-- Portfolio Modal Resume -->
+    <div class="container">
+        <div class="row resume">
+            <hr class="dark">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>Work experience</h3>
+                <div class="modal-body resume col-md-6">
+                    
+                    <h4>Associate Software Engineer, Fidelity Investment, New Jersey | January 2018-Present</h4>
+                    <ul>
+                        <li>Backend and middle-tire developer in the Fully Paid Lending
+                            Program team, a fault-tolerant platform for securities lending market
+                            under Fidelity Prime Services</li>
+                        <li>Adopt the Agile Methodology in developing RESTful applications to
+                            support company’s daily businesses</li>
+                        <!-- <li>Production support on any overnight batch processing issues and
+                            inquiries from the business team</li> -->
+                    </ul>
+                </div>  
+                <div class="modal-body  col-md-6">
+                    <h4>IT Administrator, CipherTechs, New York | September 2016-November 2017</h4>
+                    <ul>
+                        <li>Maintain a smooth operation of the internal network, setup group policies and deploy software updates to the users</li>
+                        <li>Identify computer problems and advise on the solution through research</li>
+                        <li>Manage user accounts and hardware inventory, assist users with any issues or concerns related to their accounts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>Skills</h3>
+                <div class="modal-body resume col-md-6">
+                    
+                    <h4>Programming Languages:</h4>
+                    <p>Java, C,
+                        HTML, XML, MySQL, Oracle
+                        PL/SQL, MongoDB, CSS,
+                        JavaScript, AngularJS</p>
+                </div>
+                <div class="modal-body resume col-md-6">
+                    <h4>Others:</h4>
+                    <p>Windows 8/10, UNIX,
+                        Eclipse IDE, Bitbucket/Git,
+                        Spring Framework, Jenkins</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>Leadership Experiences</h3>
+                <div class="modal-body resume col-md-6">
+                    <h4>Lead Sprint Planner, Fidelity Investment,
+                        February 2018-April 2018</h4>
+                    <p>Led a discussion among the
+                        development team to assign
+                        stories to each team members
+                        and design the system according
+                        to the user acceptance criteria</p>
+                </div>
+                <div class="modal-body resume col-md-6">
+                    <h4>Cell Leader, Yonsei University, Yonsei English Society (YES)  | Fall 2015 - Spring 2016</h4>
+                    <ul>
+                      <li>Held a small group discussion session every week 
+                        with different topics 
+                        for language and culture exchange between Korean students and foreign students</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 <div mat-dialog-actions align="end">
-  <button mat-button (click)="closedialog()">Close</button>
+  <button mat-button class="btn btn-primary center-block" (click)="closedialog()">Close</button>
+  <button mat-button class="btn btn-primary center-block" onclick="window.open('../../assets/img/resume.pdf');"> View in PDF</button>
 </div>
