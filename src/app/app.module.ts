@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { AboutComponent } from './about/about.component';
-import { ResumeComponent } from './resume/resume.component';
+import { ResumeModule} from './resume/resume.module';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
 import { RestaurantsModule} from './restaurants/restaurants.module';
@@ -20,14 +20,14 @@ import { MatIconModule } from'@angular/material/icon';
   declarations: [
     AppComponent,
     AboutComponent,
-    ResumeComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RestaurantsModule,
+    ResumeModule,
     MatButtonModule,
     FlexLayoutModule,
     MatToolbarModule,

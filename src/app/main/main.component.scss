@@ -10,6 +10,11 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     margin-bottom: 50px;
   }
+header .header-content .header-content-inner img{
+    max-width: -webkit-fill-available;
+    height: auto;
+    max-height: 300px;
+  }
   
 @media (min-width: 768px) {
     header .header-content .header-content-inner {

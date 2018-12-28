@@ -8,6 +8,6 @@ import { Restaurants } from './data/restaurants.data';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Jodie Kwok';
+  title = 'A food Label'
   restaurants = Restaurants;
 }
