@@ -330,13 +330,13 @@ THE SOFTWARE.
 
 @angular/material/dialog
 
+@angular/material/tooltip
+
 @angular/material/toolbar
 
 @angular/material/button
 
 @angular/material/icon
-
-@angular/material/tooltip
 
 @angular/flex-layout
 MIT
