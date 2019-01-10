@@ -24,4 +24,8 @@ export class RestaurantDetailsComponent implements OnInit {
     this.dialogRef.close();
   }
 
+  openlink(): void {
+    window.open(this.restaruant.website);
+  }
+
 }

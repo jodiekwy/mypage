@@ -3,42 +3,47 @@ import Restaurant from '../models/restaurant.modle'
 export const Restaurants : Restaurant[] = [
     {
         id : 0,
-        name : 'The Tree of Life',
-        location: 'East Village',
-        address: 'NY 10004',
-        review : '3D modeling and animation',
-        imgpath : '../../mypage/assets/img/portfolio/TOL.png'
+        name : 'Bluestone Lane',
+        location: 'Hudson Yards',
+        address: '435 W 31st St, New York, NY 10001',
+        review : 'Chilling Cafe Time',
+        imgpath : '../../mypage/assets/img/restaurants/bluestonelane.jpg',
+        website : 'https://bluestonelane.com/'
     }, 
     {
         id : 1,
-        name : 'Bloom',
+        name : 'Good Thanks NYC',
         location: 'East Village',
-        address: 'NY 10004',
-        review : 'Social Networking Web Site',
-        imgpath : '../../mypage/assets/img/portfolio/Bloom.jpg'
+        address: '131 Orchard St, New York, NY 10002',
+        review : 'Perfect Sunday Brunh',
+        imgpath : '../../mypage/assets/img/restaurants/goodthanksnyc_1.jpg',
+        website : 'https://www.goodthanksnyc.com/'
     },
     {
         id : 2,
-        name : 'Bowler',
+        name : 'Russ & Daughter',
         location: 'East Village',
-        address: 'NY 10004',
-        review : 'Online Grading System',
-        imgpath : '../../mypage/assets/img/portfolio/OGS.jpg'
+        address: '127 Orchard St, New York, NY 10002',
+        review : 'Lox Bagle Crave',
+        imgpath : '../../mypage/assets/img/restaurants/russ&daughter.jpg',
+        website : 'https://www.russanddaughters.com/'
     },
     {
         id : 3,
-        name : 'pathX',
-        location: 'East Village',
-        address: 'NY 10004',
-        review : 'Mini-Game',
-        imgpath : '../../mypage/assets/img/portfolio/pathX.jpg'
+        name : 'Cafeteria',
+        location: 'Chelsea',
+        address: '119 7th Ave, New York, NY 10011',
+        review : 'All Time Favourite',
+        imgpath : '../../mypage/assets/img/restaurants/cafeteria.jpg',
+        website : 'http://cafeteriagroup.com/'
     },
     {
         id : 4,
-        name : 'The Shorting Hat',
-        location: 'East Village',
-        address: 'NY 10004',
-        review : 'Mini-Game',
-        imgpath : '../../mypage/assets/img/portfolio/sortinghat.jpg'
+        name : 'Tonchin New York',
+        location: 'Midtown',
+        address: '13 W 36th St, New York, NY 10018',
+        review : 'Warming Up with Soup',
+        imgpath : '../../mypage/assets/img/restaurants/tonchin_1.jpg',
+        website : 'http://www.tonchinnewyork.com/'
     }
 ];

@@ -4,5 +4,6 @@ export default class Restaurant {
         public location: string,
         public address: string,
         public review: string,
-        public imgpath: string) {}
+        public imgpath: string,
+        public website: string) {}
 }

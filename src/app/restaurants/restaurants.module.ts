@@ -12,6 +12,7 @@ import { RestaurantDetailsComponent } from './restaurant-details/restaurant-deta
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatIconModule } from'@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MatIconModule } from'@angular/material/icon';
     MatDialogModule,
     MatToolbarModule,
     FlexLayoutModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
   ],
   entryComponents: [
     RestaurantDetailsComponent
